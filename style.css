@@ -368,6 +368,19 @@ padding-top: 20px;
 }
 .mega_link{
    text-decoration: none; 
+   width: 100px;
+   height: 234px;
+   color: #646464;
+   font-family: Lato;
+   font-size: 14px;
+   font-weight: 400;
+   font-style: normal;
+   letter-spacing: normal;
+   line-height: 28px;
+   text-align: right;
+   font-style: normal;
+   letter-spacing: 0.35px;
+   line-height: normal;
 }
 .mega_list{
     list-style-type: none;
