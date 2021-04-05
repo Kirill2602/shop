@@ -207,6 +207,9 @@ hr{
     color: #222222;
     border: 1px solid #a4a4a4; 
 }
+.basket_button:hover .test{
+    border-color: #a4a4a4 transparent transparent transparent;
+}
 .test{
     width: 0;
     height: 0;
