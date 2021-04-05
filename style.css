@@ -303,15 +303,56 @@ padding-top: 20px;
     border-radius: 5px;
     background-color: #ffffff;
     border: 1px solid #cdcdcc;
-    margin-top: 14px;
+    margin-top: 5.5px;
     position: absolute;
     display:none;
     justify-content: space-between;
     
 }
-.menu:hover .mega_box{
+
+.home:hover .mega_box{
     display: flex;
 }
+.home:hover .mega_box::before{
+    left:15px;
+}
+.man:hover .mega_box{
+    display: flex;
+}
+.man:hover .mega_box::before{
+    left: 100px;
+}
+.women:hover .mega_box{
+    display: flex;
+}
+.women:hover .mega_box::before{
+    left: 200px;
+}
+.kids:hover .mega_box{
+    display: flex;
+}
+.kids:hover .mega_box::before{
+    left: 290px;
+}
+.acco:hover .mega_box{
+    display: flex;
+}
+.acco:hover .mega_box::before{
+    left: 400px;
+}
+.feature:hover .mega_box{
+    display: flex;
+}
+.feature:hover .mega_box::before{
+    left: 550px;
+}
+.deals:hover .mega_box{
+    display: flex;
+}
+.deals:hover .mega_box::before{
+    left: 670px;
+}
+
 .mega_box::before{
     content: "";
     display: block;
@@ -347,4 +388,23 @@ padding-top: 20px;
 }
 .mini_pict_link{
     margin-top: 6px;
+}
+.sale{
+    position: absolute;
+    width: 71px;
+    height: 45px;
+    color: #ffffff;
+    font-family: "Lato - Black";
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.55px;
+    line-height: normal;
+    right: 45px;
+    bottom: 45px;
 }
