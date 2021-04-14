@@ -149,6 +149,7 @@ hr{
 .menu{
     padding: 20px 25px;
     margin-left: 206px;
+    display: flex;
 }
 .header_form{
     margin-left: 37px;
@@ -311,54 +312,14 @@ padding-top: 20px;
     border-radius: 5px;
     background-color: #ffffff;
     border: 1px solid #cdcdcc;
-    margin-top: 5.5px;
+    margin-top: 7px;
     position: absolute;
     display:none;
     justify-content: space-between;
     
 }
-
-.home:hover .mega_box{
+.menu_txt:hover .mega_box{
     display: flex;
-}
-.home:hover .mega_box::before{
-    left:15px;
-}
-.man:hover .mega_box{
-    display: flex;
-}
-.man:hover .mega_box::before{
-    left: 100px;
-}
-.women:hover .mega_box{
-    display: flex;
-}
-.women:hover .mega_box::before{
-    left: 200px;
-}
-.kids:hover .mega_box{
-    display: flex;
-}
-.kids:hover .mega_box::before{
-    left: 290px;
-}
-.acco:hover .mega_box{
-    display: flex;
-}
-.acco:hover .mega_box::before{
-    left: 400px;
-}
-.feature:hover .mega_box{
-    display: flex;
-}
-.feature:hover .mega_box::before{
-    left: 550px;
-}
-.deals:hover .mega_box{
-    display: flex;
-}
-.deals:hover .mega_box::before{
-    left: 670px;
 }
 
 .mega_box::before{
@@ -373,6 +334,33 @@ padding-top: 20px;
     transform: rotate(45deg);
     border-left: 1px solid #e8e8e8;
     border-top: 1px solid #e8e8e8;
+}
+.last:hover .mega_box{
+    display: flex;
+    right: 0;
+}
+.kids_txt:hover .mega_box::before{
+    top: -7px;
+    right: 738px;
+    left: auto;
+}
+.kids_txt:hover .mega_box{
+    right: 750; 
+}
+.acco:hover .mega_box::before{
+    top: -7px;
+    right: 630px;
+    left: auto;
+}
+.featur:hover .mega_box::before{
+    top: -7px;
+    right: 490px;
+    left: auto; 
+}
+.hot_d:hover .mega_box::before{
+    top: -7px;
+    right: 375px;
+    left: auto; 
 }
 .mega_link{
    text-decoration: none; 
@@ -845,6 +833,7 @@ letter-spacing: 0.35px;
 .mango_1:hover .hover_cart{
     display: flex;
 }
+
 .hover_cart{
     position: absolute;
     display: none;
@@ -862,6 +851,10 @@ letter-spacing: 0.35px;
 
 .cart_invisible:hover{
     box-shadow: 0px 0px 10px white;
+}
+.menu_txt{
+    display: block;
+    height: 25px;
 }
 .margin{
     margin-left: 8px;
@@ -933,10 +926,6 @@ letter-spacing: 0.35px;
     position: absolute;
     top: 1140px;
     left: 60px;
-}
-.you_may{
-    width: 1140px;
-    height: 100px;
 }
 .colection{
     color: #f16d7f;
@@ -1032,6 +1021,7 @@ letter-spacing: 0.35px;
     justify-content: space-around;
     margin-left: 243px;
     margin-right: 243px;
+    padding-bottom: 40px;
 }
 .parag_color_size{
     padding-bottom: 16px;
@@ -1102,9 +1092,19 @@ letter-spacing: 0.35px;
     justify-content: space-around;
     margin-left: 35px;
     margin-right: 35px;
+    margin-bottom: 73px;
 }
 .cosiak{
     margin-top: -16px;
+}
+.you_may{
+    color: #4d4d4d;
+    font-family: "Lato - Black";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
 }
 .singl_none{
     text-decoration: none;
