@@ -787,6 +787,9 @@ letter-spacing: 0.35px;
     line-height: 42px;
     text-decoration: none;
 }
+.bottom_link:hover{
+    color:darkslategray;
+}
 .list{
     list-style-type: none;
 }
@@ -1087,8 +1090,6 @@ letter-spacing: 0.35px;
 .cart_single{
     display: flex;
     justify-content: space-around;
-    margin-left: 35px;
-    margin-right: 35px;
     margin-bottom: 73px;
 }
 .cosiak{
