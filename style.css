@@ -340,24 +340,36 @@ padding-top: 20px;
 }
 .kids_txt:hover .mega_box::before{
     top: -7px;
-    right: 678px;
+    right: 62%;
     left: auto;
+}
+.kids_txt:hover .mega_box{
+    right: 13%;
 }
 .acco:hover .mega_box::before{
     top: -7px;
-    right: 562px;
+    right: 46%;
     left: auto;
+}
+.acco:hover .mega_box{
+    right: 14%;
 }
 
 .featur:hover .mega_box::before{
     top: -7px;
-    right: 430px;
+    right: 3%;
     left: auto; 
+}
+.featur:hover .mega_box{
+    right: 32%;
 }
 .hot_d:hover .mega_box::before{
     top: -7px;
-    right: 310px;
+    right:3%;
     left: auto; 
+}
+.hot_d:hover .mega_box{
+    right: 23%;
 }
 .mega_link{
    text-decoration: none; 
