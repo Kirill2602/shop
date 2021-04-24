@@ -3086,4 +3086,8 @@ ul {
 .check-summ::-webkit-details-marker {
   display: none;
 }
+
+a {
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
