@@ -13,24 +13,124 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="left_header">
-                <a href="#"><img class="left_head_img" src="img/left_header_img.png" alt="picture"></a>
-                <div class="word"><a href="#" class="header_word first_word">BRAN</a><a href="#"
-                        class="header_word last_letter">D</a>
+            <div class="flexHeader">
+                <div class="left_header">
+                    <a href="#"><img class="left_head_img" src="img/left_header_img.png" alt="picture"></a>
+                    <div class="word"><a href="#" class="header_word first_word">BRAN</a><a href="#"
+                            class="header_word last_letter">D</a>
+                    </div>
+                    <form class="header_form">
+                        <div class="browse-head">
+                            <details class="header_menu_btn">
+                                <summary class="none">
+                                    <p class="bro">Browse</p>
+                                    <img class="arrow_picture" src="img/marker1.png" alt="picture">
+                                </summary>
+                                <div class="short-item">
+                                    <div class="mega_item">
+                                        <h3 class="item_heading for-formH">Women</h3>
+                                        <ul class="menu_ul">
+                                            <li class="mega_list"><a class="mega_link" href="#">Dresses</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Tops</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Sweaters/Knits</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Jackets/Coats</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Blazers</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Denim</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Leggings/Pants</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Skirts/Shorts</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Accessories </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_item">
+                                        <h3 class="item_heading for-formH">Men</h3>
+                                        <ul class="menu_ul">
+                                            <li class="mega_list"><a class="mega_link" href="#">Tees/Tank tops</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Shirts/Polos</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Sweaters</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Sweatshirts/Hoodies</a>
+                                            </li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Blazers</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Jackets/vests</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </details>
+                            <input class="header_input" type="text" placeholder="Search for Item...">
+                            <button type="submit" class="loupe"><i class="fas fa-search"></i></input>
+                    </form>
                 </div>
-                <form class="header_form">
-                    <button class="header_menu_btn">Browse<span class="arrow"><img class="arrow_picture"
-                                src="img/marker1.png" alt="picture"></span></button>
-                    <input class="header_input" type="text" placeholder="Search for Item...">
-                    <button type="submit" class="loupe"><i class="fas fa-search"></i></button>
-                </form>
             </div>
-            <div class="rigth_header">
-                <a class="basket_link" href="#"><img class="basket_img" src="img/basket.png" alt="basket"></a>
-                <button class="basket_button">My Account
-                    <div class="test"></div>
-                </button>
-            </div>
+        </div>
+        <div class="rigth_header">
+            <details class="basket-detail">
+                <summary class="basket-sum">
+                    <img class="basket_img" src="img/basket.png" alt="basket">
+                </summary>
+                <div class="starsBox">
+                    <div class="column-flex">
+                        <div class="img-f">
+                            <a href="product.html"><img src="img/mini-man-f.png" alt="picture"></a>
+                        </div>
+                        <div class="info-f-star">
+                            <h3 class="min-f-h">Rebox Zane</h3>
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                            <p class="quant-price">1 x $250</p>
+                        </div>
+                        <div class="cont-act">
+                            <a href="#"><img class="act-f" src="img/action.png" alt="picture"></a>
+                        </div>
+                        <hr class="hr-mini-f">
+                    </div>
+                    <div class="column-flex flex-c">
+                        <div class="img-f">
+                            <a href="product.html"><img src="img/mini-wmn-f.png" alt="picture"></a>
+                        </div>
+                        <div class="info-f-star">
+                            <h3 class="min-f-h">Rebox Zane</h3>
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                            <p class="quant-price">1 x $250</p>
+                        </div>
+                        <div class="cont-act">
+                            <a href="#"><img class="act-f" src="img/action.png" alt="picture"></a>
+                        </div>
+                        <hr class="hr-mini-f hr-mini-f-second">
+                    </div>
+                    <div class="totalPrise">
+                        <div class="total-f">TOTAL</div>
+                        <div class="price-f">$500.00</div>
+                    </div>
+                    <div class="button-f-box">
+                        <a href="chekout.html"><input class="button-f-b btn-f-b" value="Checkout" type="button"></a>
+                        <a href="shoppingCart.html"><input class="button-f-b" value="Go to cart" type="button"></a>
+                    </div>
+                </div>
+            </details>
+            <button class="basket_button">My Account
+                <div class="test"></div>
+            </button>
         </div>
     </div>
     <hr>
@@ -374,29 +474,30 @@
         <div class="cards">
             <div class="left_cards">
                 <div class="man_deal">
-                    <div class="cart_mini_text"><a class="link_none" href="#">hOT dEAL
+                    <div class="cart_mini_text"><a class="link_none" href="product.html">hOT dEAL
                             <span class="pink_word">FOR MEN</span></a>
                     </div>
-                    <a class="pic_for" href="#"><img class="man_photo" src="img/man.png" alt="man"></a>
+                    <a class="pic_for" href="product.html"><img class="man_photo" src="img/man.png" alt="man"></a>
                 </div>
                 <div class="ac">
                     <div class="cart_mini_text botom_left botom">
-                        <div class="costil"><a class="link_none acs" href="#">LUXIROUS & trendy
+                        <div class="costil"><a class="link_none acs" href="product.html">LUXIROUS & trendy
                                 <span class="pink_word">ACCESORIES</span></a></div>
                     </div>
-                    <a class="pic_for" href="#"><img class="picture_botom left" src="img/acsess.png" alt="picture"></a>
+                    <a class="pic_for" href="product.html"><img class="picture_botom left" src="img/acsess.png"
+                            alt="picture"></a>
                 </div>
             </div>
             <div class="right_cards">
                 <div class="womOff">
-                    <div class="cart_mini_text"><a class="link_none" href="#">30% offer
+                    <div class="cart_mini_text"><a class="link_none" href="product.html">30% offer
                             <span class="pink_word">women</span></a></div>
-                    <a class="pic_for" href="#"><img src="img/women.png" alt="women"></a>
+                    <a class="pic_for" href="product.html"><img src="img/women.png" alt="women"></a>
                 </div>
                 <div class="kidArr">
-                    <div class="cart_mini_text botom"><a class="link_none" href="#">new arrivals
+                    <div class="cart_mini_text botom"><a class="link_none" href="product.html">new arrivals
                             <span class="pink_word">FOR kids</span></a></div>
-                    <a class="pic_for" href="#"><img class="kid_card" src="img/kids.png" alt="kids"></a>
+                    <a class="pic_for" href="product.html"><img class="kid_card" src="img/kids.png" alt="kids"></a>
                 </div>
             </div>
         </div>
@@ -408,9 +509,29 @@
     <div class="container">
         <div class="mango_first_line">
             <div class="mango_1">
-                <a href="#"><img class="pic_1" src="img/mango1.png" alt="one"></a>
-                <a class="decor_none t" href="#"><span class="mango_text">Mango People T-shirt</span></a>
-                <a class="decor_none b" href="#"><span class="mango_price">$52.00</span></a>
+                <a href="sinle_p.html"><img class="pic_1" src="img/mango1.png" alt="one"></a>
+                <a class="decor_none t" href="sinle_p.html"><span class="mango_text">Mango People T-shirt</span></a>
+                <a class="decor_none b" href="sinle_p.html"><span class="mango_price">$52.00</span></a>
+                <div class="hover_cart">
+                    <a class="cart_invisible" href="shoppingCart.html"><img src="img/Forma_1_cop.png" alt="pict">
+                        <p class="margin">Add to Cart</p>
+                    </a>
+                </div>
+            </div>
+            <div class="mango_1">
+                <a href="sinle_p.html"><img class="pic_1" src="img/mango2.png" alt="two"></a>
+                <a class="decor_none t" href="sinle_p.html"><span class="mango_text">Mango People T-shirt</span></a>
+                <a class="decor_none b" href="sinle_p.html"><span class="mango_price">$52.00</span></a>
+                <div class="hover_cart">
+                    <a class="cart_invisible" href="shoppingCart.html"><img src="img/Forma_1_cop.png" alt="pict">
+                        <p class="margin">Add to Cart</p>
+                    </a>
+                </div>
+            </div>
+            <div class="mango_1">
+                <a href="sinle_p.html"><img class="pic_1" src="img/mango3.png" alt="three"></a>
+                <a class="decor_none t" href="sinle_p.html"><span class="mango_text">Mango People T-shirt</span></a>
+                <a class="decor_none b" href="sinle_p.html"><span class="mango_price">$52.00</span></a>
                 <div class="hover_cart">
                     <a class="cart_invisible" href="#"><img src="img/Forma_1_cop.png" alt="pict">
                         <p class="margin">Add to Cart</p>
@@ -418,31 +539,11 @@
                 </div>
             </div>
             <div class="mango_1">
-                <a href="#"><img class="pic_1" src="img/mango2.png" alt="two"></a>
-                <a class="decor_none t" href="#"><span class="mango_text">Mango People T-shirt</span></a>
-                <a class="decor_none b" href="#"><span class="mango_price">$52.00</span></a>
+                <a href="sinle_p.html"><img class="pic_1" src="img/mango4.png" alt="picture"></a>
+                <a class="decor_none t" href="sinle_p.html"><span class="mango_text">Mango People T-shirt</span></a>
+                <a class="decor_none b" href="sinle_p.html"><span class="mango_price">$52.00</span></a>
                 <div class="hover_cart">
-                    <a class="cart_invisible" href="#"><img src="img/Forma_1_cop.png" alt="pict">
-                        <p class="margin">Add to Cart</p>
-                    </a>
-                </div>
-            </div>
-            <div class="mango_1">
-                <a href="#"><img class="pic_1" src="img/mango3.png" alt="three"></a>
-                <a class="decor_none t" href="#"><span class="mango_text">Mango People T-shirt</span></a>
-                <a class="decor_none b" href="#"><span class="mango_price">$52.00</span></a>
-                <div class="hover_cart">
-                    <a class="cart_invisible" href="#"><img src="img/Forma_1_cop.png" alt="pict">
-                        <p class="margin">Add to Cart</p>
-                    </a>
-                </div>
-            </div>
-            <div class="mango_1">
-                <a href=""><img class="pic_1" src="img/mango4.png" alt="picture"></a>
-                <a class="decor_none t" href="#"><span class="mango_text">Mango People T-shirt</span></a>
-                <a class="decor_none b" href="#"><span class="mango_price">$52.00</span></a>
-                <div class="hover_cart">
-                    <a class="cart_invisible" href="#"><img src="img/Forma_1_cop.png" alt="pict">
+                    <a class="cart_invisible" href="shoppingCart.html"><img src="img/Forma_1_cop.png" alt="pict">
                         <p class="margin">Add to Cart</p>
                     </a>
                 </div>
@@ -450,49 +551,49 @@
         </div>
         <div class="mango_second_line">
             <div class="mango_1">
-                <a href="#"><img class="pic_1" src="img/mango5.png" alt="picture"></a>
-                <a class="decor_none t" href="#"><span class="mango_text">Mango People T-shirt</span></a>
-                <a class="decor_none b" href="#"><span class="mango_price">$52.00</span></a>
+                <a href="sinle_p.html"><img class="pic_1" src="img/mango5.png" alt="picture"></a>
+                <a class="decor_none t" href="sinle_p.html"><span class="mango_text">Mango People T-shirt</span></a>
+                <a class="decor_none b" href="sinle_p.html"><span class="mango_price">$52.00</span></a>
                 <div class="hover_cart">
-                    <a class="cart_invisible" href="#"><img src="img/Forma_1_cop.png" alt="pict">
+                    <a class="cart_invisible" href="shoppingCart.html"><img src="img/Forma_1_cop.png" alt="pict">
                         <p class="margin">Add to Cart</p>
                     </a>
                 </div>
             </div>
             <div class="mango_1">
-                <a href="#"><img class="pic_1" src="img/mango6.png" alt="picture"></a>
-                <a class="decor_none t" href="#"><span class="mango_text">Mango People T-shirt</span></a>
-                <a class="decor_none b" href="#"><span class="mango_price">$52.00</span></a>
+                <a href="sinle_p.html"><img class="pic_1" src="img/mango6.png" alt="picture"></a>
+                <a class="decor_none t" href="sinle_p.html"><span class="mango_text">Mango People T-shirt</span></a>
+                <a class="decor_none b" href="sinle_p.html"><span class="mango_price">$52.00</span></a>
                 <div class="hover_cart">
-                    <a class="cart_invisible" href="#"><img src="img/Forma_1_cop.png" alt="pict">
+                    <a class="cart_invisible" href="shoppingCart.html"><img src="img/Forma_1_cop.png" alt="pict">
                         <p class="margin">Add to Cart</p>
                     </a>
                 </div>
             </div>
             <div class="mango_1">
-                <a href="#"><img class="pic_1" src="img/mango7.png" alt="picture"></a>
-                <a class="decor_none t" href="#"><span class="mango_text">Mango People T-shirt</span></a>
-                <a class="decor_none b" href="#"><span class="mango_price">$52.00</span></a>
+                <a href="sinle_p.html"><img class="pic_1" src="img/mango7.png" alt="picture"></a>
+                <a class="decor_none t" href="sinle_p.html"><span class="mango_text">Mango People T-shirt</span></a>
+                <a class="decor_none b" href="sinle_p.html"><span class="mango_price">$52.00</span></a>
                 <div class="hover_cart">
-                    <a class="cart_invisible" href="#"><img src="img/Forma_1_cop.png" alt="pict">
+                    <a class="cart_invisible" href="shoppingCart.html"><img src="img/Forma_1_cop.png" alt="pict">
                         <p class="margin">Add to Cart</p>
                     </a>
                 </div>
             </div>
             <div class="mango_1">
-                <a href="#"><img class="pic_1" src="img/mango8.png" alt="picture"></a>
-                <a class="decor_none t" href="#"><span class="mango_text">Mango People T-shirt</span></a>
-                <a class="decor_none b" href="#"><span class="mango_price">$52.00</span></a>
+                <a href="sinle_p.html"><img class="pic_1" src="img/mango8.png" alt="picture"></a>
+                <a class="decor_none t" href="sinle_p.html"><span class="mango_text">Mango People T-shirt</span></a>
+                <a class="decor_none b" href="sinle_p.html"><span class="mango_price">$52.00</span></a>
                 <div class="hover_cart">
-                    <a class="cart_invisible" href="#"><img src="img/Forma_1_cop.png" alt="pict">
+                    <a class="cart_invisible" href="shoppingCart.html"><img src="img/Forma_1_cop.png" alt="pict">
                         <p class="margin">Add to Cart</p>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="browse_btn container"><button class="br_btn" type="submit">Browse All Product <i
-                class="fas fa-arrow-right"></i></button></div>
+    <div class="browse_btn container"><a href="product.html"><button class="br_btn" type="submit">Browse All Product <i
+                    class="fas fa-arrow-right"></i></button></a></div>
     <div class="baner_w container">
         <img src="img/baner_w.png" alt="picture">
         <div class="txt_b_w">

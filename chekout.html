@@ -13,24 +13,124 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="left_header">
-                <a href="#"><img class="left_head_img" src="img/left_header_img.png" alt="picture"></a>
-                <div class="word"><a href="#" class="header_word first_word">BRAN</a><a href="#"
-                        class="header_word last_letter">D</a>
+            <div class="flexHeader">
+                <div class="left_header">
+                    <a href="index.html"><img class="left_head_img" src="img/left_header_img.png" alt="picture"></a>
+                    <div class="word"><a href="index.html" class="header_word first_word">BRAN</a><a href="index.html"
+                            class="header_word last_letter">D</a>
+                    </div>
+                    <form class="header_form">
+                        <div class="browse-head">
+                            <details class="header_menu_btn">
+                                <summary class="none">
+                                    <p class="bro">Browse</p>
+                                    <img class="arrow_picture" src="img/marker1.png" alt="picture">
+                                </summary>
+                                <div class="short-item">
+                                    <div class="mega_item">
+                                        <h3 class="item_heading for-formH">Women</h3>
+                                        <ul class="menu_ul">
+                                            <li class="mega_list"><a class="mega_link" href="#">Dresses</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Tops</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Sweaters/Knits</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Jackets/Coats</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Blazers</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Denim</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Leggings/Pants</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Skirts/Shorts</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Accessories </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="mega_item">
+                                        <h3 class="item_heading for-formH">Men</h3>
+                                        <ul class="menu_ul">
+                                            <li class="mega_list"><a class="mega_link" href="#">Tees/Tank tops</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Shirts/Polos</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Sweaters</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Sweatshirts/Hoodies</a>
+                                            </li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Blazers</a></li>
+                                            <li class="mega_list"><a class="mega_link" href="#">Jackets/vests</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </details>
+                            <input class="header_input" type="text" placeholder="Search for Item...">
+                            <button type="submit" class="loupe"><i class="fas fa-search"></i></input>
+                    </form>
                 </div>
-                <form class="header_form">
-                    <button class="header_menu_btn">Browse<span class="arrow"><img class="arrow_picture"
-                                src="img/marker1.png" alt="picture"></span></button>
-                    <input class="header_input" type="text" placeholder="Search for Item...">
-                    <button type="submit" class="loupe"><i class="fas fa-search"></i></button>
-                </form>
             </div>
-            <div class="rigth_header">
-                <a class="basket_link" href="#"><img class="basket_img" src="img/basket.png" alt="basket"></a>
-                <button class="basket_button">My Account
-                    <div class="test"></div>
-                </button>
-            </div>
+        </div>
+        <div class="rigth_header">
+            <details class="basket-detail">
+                <summary class="basket-sum">
+                    <img class="basket_img" src="img/basket.png" alt="basket">
+                </summary>
+                <div class="starsBox">
+                    <div class="column-flex">
+                        <div class="img-f">
+                            <a href="#"><img src="img/mini-man-f.png" alt="picture"></a>
+                        </div>
+                        <div class="info-f-star">
+                            <h3 class="min-f-h">Rebox Zane</h3>
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                            <p class="quant-price">1 x $250</p>
+                        </div>
+                        <div class="cont-act">
+                            <a href="#"><img class="act-f" src="img/action.png" alt="picture"></a>
+                        </div>
+                        <hr class="hr-mini-f">
+                    </div>
+                    <div class="column-flex flex-c">
+                        <div class="img-f">
+                            <a href="#"><img src="img/mini-wmn-f.png" alt="picture"></a>
+                        </div>
+                        <div class="info-f-star">
+                            <h3 class="min-f-h">Rebox Zane</h3>
+                            <div class="rating-area">
+                                <input type="radio" id="star-5" name="rating" value="5">
+                                <label for="star-5" title="Оценка «5»"></label>
+                                <input type="radio" id="star-4" name="rating" value="4">
+                                <label for="star-4" title="Оценка «4»"></label>
+                                <input type="radio" id="star-3" name="rating" value="3">
+                                <label for="star-3" title="Оценка «3»"></label>
+                                <input type="radio" id="star-2" name="rating" value="2">
+                                <label for="star-2" title="Оценка «2»"></label>
+                                <input type="radio" id="star-1" name="rating" value="1">
+                                <label for="star-1" title="Оценка «1»"></label>
+                            </div>
+                            <p class="quant-price">1 x $250</p>
+                        </div>
+                        <div class="cont-act">
+                            <a href="#"><img class="act-f" src="img/action.png" alt="picture"></a>
+                        </div>
+                        <hr class="hr-mini-f hr-mini-f-second">
+                    </div>
+                    <div class="totalPrise">
+                        <div class="total-f">TOTAL</div>
+                        <div class="price-f">$500.00</div>
+                    </div>
+                    <div class="button-f-box">
+                        <input class="button-f-b btn-f-b" value="Checkout" type="button">
+                        <input class="button-f-b" value="Go to cart" type="button">
+                    </div>
+                </div>
+            </details>
+            <button class="basket_button">My Account
+                <div class="test"></div>
+            </button>
         </div>
     </div>
     <hr>
@@ -59,13 +159,14 @@
     </div>
     <div class="new_arrivals container">
         <div class="left_arriv">New Arrivals </div>
-        <div class="right_arriv"> <a class="link_r_arriv" href="#">Home /</a> <a class="link_r_arriv" href="#">Men /</a>
-            <a class="link_r_arriv" href="#">New Arrivals</a>
+        <div class="right_arriv"> <a class="link_r_arriv" href="index.html">Home /</a> <a class="link_r_arriv"
+                href="product.html">Men /</a>
+            <a class="link_r_arriv" href="product.html">New Arrivals</a>
         </div>
     </div>
     <div class="fon">
-        <div class="block container">
-            <a class="magic" tabindex="1" href="javascript:void(0)">01. Shipping Adress</a>
+        <details class="block container">
+            <summary class="check-summ magic">01.Shipping Adress</summary>
             <div class="input_form">
                 <form class="left_inp">
                     <h3 class="check_h">Check as a guest or register</h3>
@@ -107,10 +208,10 @@
                     <a class="forgot_p" href="#">Forgot Password ?</a>
                 </form>
             </div>
-        </div>
+        </details>
         <hr class="hr_form">
-        <div class="block container">
-            <a class="magic" href="javascript:void(0)">02. BILLING INFORMATION</a>
+        <details class="block container">
+            <summary class="check-summ magic">02.BILLING INFORMATION</summary>
             <div class="input_form">
                 <form class="left_inp">
                     <h3 class="check_h">Check as a guest or register</h3>
@@ -152,10 +253,10 @@
                     <a class="forgot_p" href="#">Forgot Password ?</a>
                 </form>
             </div>
-        </div>
+        </details>
         <hr class="hr_form">
-        <div class="block container">
-            <a class="magic" href="javascript:void(0)">03. SHIPPING INFORMATION</a>
+        <details class="block container">
+            <summary class="check-summ magic">03.SHIPPING INFORMATION</summary>
             <div class="input_form">
                 <form class="left_inp">
                     <h3 class="check_h">Check as a guest or register</h3>
@@ -197,10 +298,10 @@
                     <a class="forgot_p" href="#">Forgot Password ?</a>
                 </form>
             </div>
-        </div>
+        </details>
         <hr class="hr_form">
-        <div class="block container">
-            <a class="magic" href="javascript:void(0)">04. SHIPPING METHOD</a>
+        <details class="block container">
+            <summary class="check-summ magic">04.SHIPPING METHOD</summary>
             <div class="input_form">
                 <form class="left_inp">
                     <h3 class="check_h">Check as a guest or register</h3>
@@ -242,10 +343,10 @@
                     <a class="forgot_p" href="#">Forgot Password ?</a>
                 </form>
             </div>
-        </div>
+        </details>
         <hr class="hr_form">
-        <div class="block container">
-            <a class="magic" href="javascript:void(0)">05. PAYMENT METHOD</a>
+        <details class="block container">
+            <summary class="check-summ magic">05.PAYMENT METHOD</summary>
             <div class="input_form">
                 <form class="left_inp">
                     <h3 class="check_h">Check as a guest or register</h3>
@@ -287,10 +388,10 @@
                     <a class="forgot_p" href="#">Forgot Password ?</a>
                 </form>
             </div>
-        </div>
+        </details>
         <hr class="hr_form">
-        <div class="block container">
-            <a class="magic" href="javascript:void(0)">06. ORDER REVIEW</a>
+        <details class="block container">
+            <summary class="check-summ magic">06.ORDER REVIEW</summary>
             <div class="input_form">
                 <form class="left_inp">
                     <h3 class="check_h">Check as a guest or register</h3>
@@ -332,7 +433,7 @@
                     <a class="forgot_p" href="#">Forgot Password ?</a>
                 </form>
             </div>
-        </div>
+        </details>
         <hr class="hr_form">
     </div>
 
@@ -359,10 +460,10 @@
     <div class="bottom_inf">
         <div class="left_ban">
             <div class="pict_ban">
-                <div class="repiat"> <a href="#"><img class="left_head_img" src="img/left_header_img.png"
+                <div class="repiat"> <a href="index.html"><img class="left_head_img" src="img/left_header_img.png"
                             alt="picture"></a>
-                    <div class="word btn_ban"><a href="#" class="header_word first_word">BRAN</a><a href="#"
-                            class="header_word last_letter">D</a>
+                    <div class="word btn_ban"><a href="index.html" class="header_word first_word">BRAN</a><a
+                            href="index.html" class="header_word last_letter">D</a>
                     </div>
                     <p class="left_ban_txt">Objectively transition extensive data rather than cross functional
                         solutions.
